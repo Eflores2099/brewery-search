@@ -12,14 +12,10 @@ import MappedBrews from "./Components/MappedBrews.js"
 
 class App extends Component {
     
-      
-        
-      
-
     componentDidMount() {
         // this.props.getBrews()
+        document.title = "Brewery Search"
     }
-
 
     render () {
         // console.log(this.props)
